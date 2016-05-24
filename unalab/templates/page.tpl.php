@@ -171,8 +171,8 @@
   </footer>
 <?php endif; ?>
 
-<?php if (!empty($page['highlight'])): ?>
+<?php if (!empty($page['highlights'])): ?>
 	<div>
-        <?php print render($page['highlight']); ?>
+        <?php print render($page['highlights']); ?>
      </div>
     <?php endif; ?>
